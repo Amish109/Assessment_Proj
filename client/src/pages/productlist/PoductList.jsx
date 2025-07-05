@@ -20,7 +20,7 @@ const ProductList = () => {
   return (
     <div className="p-4">
       <h2 className="text-lg font-semibold mb-3">
-        List of Products from Accounts with Transactions Below ₹5000:
+        List of Products:
       </h2>
 
       {data.length === 0 ? (
